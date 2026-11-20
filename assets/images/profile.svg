@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title description">
+  <title id="title">Abstract portfolio profile illustration</title>
+  <desc id="description">A glowing cyan geometric person silhouette against a deep navy background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#12384b"/>
+      <stop offset="1" stop-color="#071827"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#89f4ed"/>
+      <stop offset="1" stop-color="#35b8d2"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#52dce1" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#52dce1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#background)"/>
+  <circle cx="301" cy="275" r="220" fill="url(#aura)"/>
+  <circle cx="300" cy="300" r="213" fill="none" stroke="#62e2e8" stroke-opacity=".14"/>
+  <circle cx="300" cy="300" r="178" fill="none" stroke="#62e2e8" stroke-opacity=".13" stroke-dasharray="3 12"/>
+  <circle cx="300" cy="233" r="72" fill="url(#glow)" opacity=".92"/>
+  <path d="M143 500c13-107 69-161 157-161s144 54 157 161" fill="url(#glow)" opacity=".86"/>
+  <path d="M183 488c14-73 53-112 117-112s103 39 117 112" fill="#0b2637" opacity=".58"/>
+  <circle cx="468" cy="151" r="8" fill="#89f4ed"/>
+  <circle cx="122" cy="356" r="5" fill="#89f4ed" opacity=".72"/>
+</svg>
